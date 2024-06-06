@@ -4,7 +4,7 @@ import React from "react";
 const Title = ({ title, className, ...props }) => {
   return (
     <h2
-      className={clsx("front-medium tracking-tight", className)}
+      className={clsx("font-medium tracking-tight", className)}
       {...props}
     >
       {title}
