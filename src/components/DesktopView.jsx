@@ -20,7 +20,7 @@ const usePrevious = (value) => {
   return ref.current;
 };
 
-const DesktopView = () => {
+export const DesktopView = () => {
   const [changeCount, setChangeCount] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const prevIndex = usePrevious(selectedIndex);
@@ -87,7 +87,6 @@ const DesktopView = () => {
     </TabGroup>
   );
 };
-
 
 export const MobileView = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -201,4 +200,3 @@ export const MobileView = () => {
     </div>
   );
 };
-export default DesktopView;
