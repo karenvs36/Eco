@@ -3,7 +3,6 @@ import Container from './Container';
 import Title from './Title';
 import { DesktopView, MobileView } from './DesktopView';
 
-
 const Feature = () => {
   return (
     <section
@@ -18,9 +17,8 @@ const Feature = () => {
                 className="text-[#232E26] text-2xl font-bold ml-32"/>
                 <p className="mt-2 text-lg text-customDark-400 ml-32">
                 EcoTrack was created for environmentally conscious individuals like you who are determined to make a difference 
-                <br/>and won't let anything stand in the way of a greener future. 
+                <br/>and won&apos;t let anything stand in the way of a greener future. 
                 <br />If other apps hesitate to push boundaries, EcoTrack Social embraces innovation.
-
                 </p>
             </div>
         </Container>
@@ -34,7 +32,7 @@ const Feature = () => {
           <MobileView />
         </div>
     </section>
-  )
-}
+  );
+};
 
 export default Feature;
