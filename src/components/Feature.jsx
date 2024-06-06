@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from './Container';
 import Title from './Title';
-import DesktopView from './DesktopView';
-import { MobileView } from './DesktopView';
+import { DesktopView, MobileView } from './DesktopView';
+
 
 const Feature = () => {
   return (
